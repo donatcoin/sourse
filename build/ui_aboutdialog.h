@@ -119,8 +119,8 @@ public:
 
     void retranslateUi(QDialog *AboutDialog)
     {
-        AboutDialog->setWindowTitle(QApplication::translate("AboutDialog", "About BotaniCoin", 0, QApplication::UnicodeUTF8));
-        label->setText(QApplication::translate("AboutDialog", "<b>BotaniCoin</b> version", 0, QApplication::UnicodeUTF8));
+        AboutDialog->setWindowTitle(QApplication::translate("AboutDialog", "About DonatCoin", 0, QApplication::UnicodeUTF8));
+        label->setText(QApplication::translate("AboutDialog", "<b>DonatCoin</b> version", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("AboutDialog", "\n"
 "          Copyright \302\251 2009-2012 Bitcoin Developers\n"
 "          Copyright \302\251 2011-2012 Litecoin Developers\n"

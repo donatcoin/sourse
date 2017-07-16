@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("BOT");
-    case mBTC: return QString("mBOT");
-    case uBTC: return QString::fromUtf8("μBOT");
+    case BTC: return QString("DON");
+    case mBTC: return QString("mDON");
+    case uBTC: return QString::fromUtf8("μDON");
     default: return QString("???");
     }
 }
@@ -45,13 +45,13 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("BotaniCoin");
-    case mBTC: return QString("milliBotaniCoin (1 / 1,000)");
-    case uBTC: return QString("microBotaniCoin (1 / 1,000,000)");
+    case BTC: return QString("DonatCoin");
+    case mBTC: return QString("milliDonatCoin (1 / 1,000)");
+    case uBTC: return QString("microDonatCoin (1 / 1,000,000)");
     default: return QString("???");
     }
 }
-//a single unit (.00000001) of BotaniCoin is called a "wander."
+//a single unit (.00000001) of DonatCoin is called a "wander."
 qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)

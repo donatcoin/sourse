@@ -1,9 +1,9 @@
-Building BotaniCoin
+Building DonatCoin
 
-See doc/readme-qt.rst for instructions on building botanicoin-qt,
+See doc/readme-qt.rst for instructions on building donatcoin-qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of BotaniCoin.
+implementation of DonatCoin.
 
-See doc/build-*.txt for instructions on building botanicoin,
+See doc/build-*.txt for instructions on building donatcoin,
 the intended-for-services, no-graphical-interface, reference
-implementation of BotaniCoin.
+implementation of DonatCoin.
